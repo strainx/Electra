@@ -10,7 +10,8 @@ return function()
                 [0] = "Player";
                 [1] = "Moderator";
                 [2] = "Admin";
-                [3] = "Creator";
+                [3] = "Super Admin"
+                [4] = "Creator";
             }) [Level]
         end;
 
