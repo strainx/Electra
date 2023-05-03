@@ -17,7 +17,7 @@ return function()
                 end
                 local info = {}
                 info.embeds = {{}}
-                info.embeds[1].title = 'Electra log'
+                info.embeds[1].title = 'Command Log'
                 info.embeds[1].fields = {{name = 'Player',value = tostring(Player)},{name = 'Action',value = tostring(Action)},{name = 'Info',value = tostring(Info)}}
                 server.Functions.PostEmbed(info)
             end;
